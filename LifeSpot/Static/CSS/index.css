@@ -100,3 +100,19 @@ input {
 input:focus {
     border: 2px solid dimgrey;
 }
+
+.slider{
+    width: 1000px;
+    height: 408px;
+    overflow: hidden;
+}
+
+.slider-line{
+    width: 4000px;
+    height: 408px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    pointer-events: none;
+}
+
